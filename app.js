@@ -12,7 +12,7 @@ const bodyParser = require('body-parser');
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://admin:JKZFmd2TpWD41osC@cluster0-ksida.mongodb.net/test?retryWrites=true"
+  "mongodb+srv://admin:<password>@cluster0-ksida.mongodb.net/test?retryWrites=true"
 );
 
 const tripRoutes = require('./api/routes/trip');
